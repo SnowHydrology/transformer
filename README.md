@@ -1,46 +1,9 @@
-#### OWP Open Source Project Template Instructions
+# Transformer
 
-1. Create a new project.
-2. [Copy these files into the new project](#installation)
-3. Update the README, replacing the contents below as prescribed.
-4. Add any libraries, assets, or hard dependencies whose source code will be included
-   in the project's repository to the _Exceptions_ section in the [TERMS](TERMS.md).
-  - If no exceptions are needed, remove that section from TERMS.
-5. If working with an existing code base, answer the questions on the [open source checklist](opensource-checklist.md)
-6. Delete these instructions and everything up to the _Project Title_ from the README.
-7. Write some great software and tell people about it.
+**Description**: What do you do when your model needs precipitation as a depth, but the forcing data provides it as a rate? What if you need a depth of precipitation, but you only have it as a mass? What about scalar versus vector wind speed? Other changes that a strict units converter cannot handle? Enter the **Transformer**.
 
-> Keep the README fresh! It's the first thing people see and will make the initial impression.
-
-## Installation
-
-To install all of the template files, run the following script from the root of your project's directory:
-
-```
-bash -c "$(curl -s https://raw.githubusercontent.com/NOAA-OWP/owp-open-source-project-template/open_source_template.sh)"
-```
-
-----
-
-# Project Title
-
-**Description**:  Put a meaningful, short, plain-language description of what
-this project is trying to accomplish and why it matters.
-Describe the problem(s) this project solves.
-Describe how this software can improve the lives of its audience.
-
-Other things to include:
-
-  - **Technology stack**: Indicate the technological nature of the software, including primary programming language(s) and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-  - **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where this project is at. This is also a good place to link to the [CHANGELOG](CHANGELOG.md).
-  - **Links to production or demo instances**
-  - Describe what sets this apart from related-projects. Linking to another doc or page is OK if this can't be expressed in a sentence or two.
-
-
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
-
-![](https://raw.githubusercontent.com/NOAA-OWP/owp-open-source-project-template/master/doc/Screenshot.png)
-
+  - **Technology stack**: This is a Python module that can be run on its own, but it is configured to be used in the Next Generation Water Resources Modeling Framework. It also has an implementation of the Basic Model Int
+  - **Status**:  This is very much in development (what comes before alpha?), so check back frequently for updates and be sure to suggest changes via the issues tab and make your own fork and submit changes via a pull request.
 
 ## Dependencies
 
